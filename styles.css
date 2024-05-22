@@ -67,16 +67,17 @@ table tr:last-child{
     background-color: antiquewhite;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
   }
 
   .recipie img{
-    max-width: 94%;
+    max-width: 95%;
     padding: 20px;
     border-radius: 30px;
   }
 
   .card{
+    margin: 100px;
     width: 40%;
     background-color: white;
     border-radius: 15px;
