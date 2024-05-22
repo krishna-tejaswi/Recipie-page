@@ -1,0 +1,83 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card{
+  line-height: 1.5;
+}
+
+.recipie img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  font-weight: 500;
+  padding: 0 25px 25px 25px;
+}
+
+.prep{
+  background-color: antiquewhite;
+  padding:2px 20px 2px 20px;
+  border-radius: 5px;
+}
+
+h1{
+  font-size: xx-large;
+}
+
+h2{
+  color: rgb(144, 35, 35);
+  font-size: x-large;
+}
+
+h3{
+  color: rgb(80, 24, 102);
+}
+
+ol li{
+  padding:5px; 
+}
+
+ol ::marker{
+  color: rgb(144, 35, 35);
+}
+
+table{
+  font-size: 20px;
+  width: 80%;
+  margin-left: 25px;
+}
+
+td{
+  border-bottom: 1px solid #908e8e;
+  padding: 10px;
+}
+
+table td:nth-of-type(even){
+  color: rgb(144, 35, 35);;
+}
+table tr:last-child{
+  border-bottom: 1px solid white;
+}
+
+@media screen and (min-width:680px){
+  body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .recipie img{
+    max-width: 94%;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .card{
+    width: 50%;
+    background-color: white;
+    border-radius: 15px;
+  }
+}
