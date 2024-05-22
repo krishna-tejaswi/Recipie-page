@@ -62,7 +62,7 @@ table tr:last-child{
   border-bottom: 1px solid white;
 }
 
-@media screen and (min-width:680px){
+@media screen and (min-width:780px){
   body{
     background-color: antiquewhite;
     display: flex;
@@ -75,8 +75,9 @@ table tr:last-child{
     padding: 20px;
     border-radius: 30px;
   }
+
   .card{
-    width: 50%;
+    width: 40%;
     background-color: white;
     border-radius: 15px;
   }
